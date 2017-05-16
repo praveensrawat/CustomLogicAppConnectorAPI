@@ -50,7 +50,7 @@ namespace APIAppX.RMS
 
         private void GenerateToken()
         {
-            System.Net.WebRequest httpWebRequest = generateWebRequest("https://one.dev.azure.rmsonecloud.net/api/auth/token/create");
+            System.Net.WebRequest httpWebRequest = generateWebRequest("ENTER RESTFUL URL");
             httpWebRequest.Method = "POST";
             using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
             {
